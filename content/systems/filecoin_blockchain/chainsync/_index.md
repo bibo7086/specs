@@ -23,7 +23,7 @@ group of smaller protocols, which handle different parts of the sync process.
 Chain synchronisation is generally needed in the following cases:
 
 1. when a node first joins the network and needs to get to the current state before validating or extending the chain.
-2. when a node has fell out of sync, e.g., due to a brief disconnection.
+2. when a node has fallen out of sync, e.g., due to a brief disconnection.
 3. during normal operation in order to keep up with the latest messages and blocks.
 
 There are three main protocols used to achieve synchronisation for these three cases.
